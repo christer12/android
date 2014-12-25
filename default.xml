@@ -16,7 +16,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
+  <project path="build" name="christer12/android_build" groups="pdk,tradefed" remote="github" revision="cm-12.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
